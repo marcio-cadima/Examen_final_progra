@@ -1,0 +1,60 @@
+/*!
+ * Start Bootstrap - 3 Col Portfolio (https://startbootstrap.com/template-overviews/3-col-portfolio)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-3-col-portfolio/blob/master/LICENSE)
+ */
+
+body {
+  padding-top: 54px;
+    background-image: url(../img/SL-091819-23500-12.jpg);
+    background-size:cover;
+    background-repeat: repeat-y;
+}
+
+.caja{
+    padding: 100px;
+    color: whitesmoke;
+    font-family:cursive;
+    width: 100%;
+    height: 600px;
+    font-size: 60px;
+}
+
+.caja ul{
+    text-decoration: none;
+    text-align: center;
+}
+
+.card{
+    padding: 5px;
+    background-image: radial-gradient(circle at -18.3% 31.7%, #bdb7c4 0, #bab4be 8.33%, #b6b0b7 16.67%, #b1acb0 25%, #aaa8a9 33.33%, #a2a4a2 41.67%, #989f9c 50%, #8e9a96 58.33%, #849692 66.67%, #7b928f 75%, #728f8e 83.33%, #6a8c8d 91.67%, #63898c 100%);
+    box-shadow: 10px 5px 10px;
+}
+
+.card-body{
+    background-image: radial-gradient(circle at 4.55% -4.17%, #fffffd 0, #fffff7 12.5%, #fffff0 25%, #fff6e8 37.5%, #f0e6df 50%, #d9d7d5 62.5%, #c4c9cc 75%, #b0bec3 87.5%, #9fb4ba 100%);
+    background-repeat: no-repeat;
+}
+
+@media (min-width: 992px) {
+  body {
+    padding-top: 56px;
+  }
+}
+
+.portfolio-item {
+  margin-bottom: 30px;
+}
+
+.pagination {
+  margin-bottom: 30px;
+}
+img 
+{
+    width: 00px;
+    height: 300px;
+}
+
+.tarjeta {
+    width: 110%;  
+}

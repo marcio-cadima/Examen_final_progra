@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+:root{
+    --gold1:#F4BD76;
+    --gold2:#F6CD8F;
+    --gray:#ffffff80;
+    --gray2:#f7d9d990;
+    --black1: #1A1B1F;
+    --black2: #506a8c;
+    --shadow: 0 8px 8px;
+    --color_shadow: #00000033;
+}
+
+body{
+	padding: 100px;
+    margin: 0;
+
+}
+
+
+.TITULO1{
+    background-color: #129c1e;
+    font-size: 3em;
+    text-align: center;
+    color: white;
+
+}
+.TITULO2{
+    background-color: #1e221f;
+    font-size: 2em;
+    text-align: center;
+    color: white;
+
+}
+.menu{
+	list-style: none;
+	padding: 0;
+	background: #c5ccce;
+	
+	margin: auto;
+
+}
+
+.menu li a{
+	text-decoration: none;
+	color: rgb(12, 160, 57);
+	padding: 20px;
+	display: block;
+    
+}
+
+.menu li{
+	display: inline-block;
+    background-color: #acb9ca;
+    padding: 0;
+    margin: 0;
+}
+
+.menu li a:hover{
+	background: #0a0a0a;
+    border-radius: 33px;
+}
+.container1{
+     
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     height: 100vh;
+     margin: 0px;
+
+}
+.container1 img {
+   width: 500vw;
+   height: 100vh;
+}  
+
+h2 {
+    background-color: #2eb635;
+}
+
+/* services */
+.services{
+    background: #fafafa;
+    padding: 180px;
+    margin: 0;
+    
+    
+}
+
+
+.bode{
+    border: 8px solid rgb(153, 153, 180);
+    padding: 5px;
+}
+.bode1{
+    border: 8px solid rgb(153, 153, 180);
+    padding: 5px;
+
+}
+
+.subtitle .p{
+    font-size: 42px;
+  
+}
+
+.subtitle--modifier{
+    text-align: center;
+   
+    
+}
+
+
+.container-cards{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+
+ 
+}
+
+.card{
+    width: 30%;
+    padding: 30px 0;
+    overflow: hidden;
+    background: linear-gradient(180deg, var(--black2) 0%, var(--black1) 100%);
+    border-radius: 10px;
+    position: relative;
+    text-align: right;
+    margin-bottom: 60px;
+    box-shadow: 0 0 6px var(--color_shadow);
+   
+}
+
+.card__img{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px 0 0 10px;
+ 
+}
+
+.cards__text{
+    text-align: left;
+    width: 90%;
+    margin:0 auto;
+}
+
+.card__list{
+    color: var(--gold2);
+    font-weight: 700;
+    margin: 25px 0 12px ;
+    font-size: 18px;
+}
+
+
+  
